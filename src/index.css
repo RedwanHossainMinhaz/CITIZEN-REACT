@@ -1,0 +1,80 @@
+/* ============================================================
+   CITIZEN BANGLADESH — Global Styles
+   ============================================================ */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Brand Colors */
+  --blue-primary: #1a3fd4;
+  --blue-dark: #1230a8;
+  --blue-soft: #e8edfb;
+  --blue-muted: #6b82d6;
+  --green-accent: #16a34a;
+  --green-soft: #dcfce7;
+
+  /* Neutrals */
+  --bg-page: #f0f2f8;
+  --bg-card: #ffffff;
+  --bg-card-soft: #f7f8fc;
+  --border: #e2e6f0;
+  --text-primary: #111827;
+  --text-secondary: #4b5563;
+  --text-muted: #9ca3af;
+  --text-label: #6b7280;
+
+  /* Typography */
+  --font-display: 'Sora', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  /* Spacing */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+
+  /* Shadows */
+  --shadow-card: 0 1px 3px rgba(0,0,0,0.06), 0 4px 16px rgba(0,0,0,0.04);
+  --shadow-nav: 0 1px 0 rgba(0,0,0,0.06);
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--bg-page);
+  color: var(--text-primary);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  font-family: var(--font-body);
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
