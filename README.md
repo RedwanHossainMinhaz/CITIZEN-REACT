@@ -27,5 +27,5 @@ Creates an optimized production build in the `build/` folder.
 
 ---
 
-Live Link : [redwanhossainminhaz.github.io/CITIZEN-REACT/](live server)
+Live Link : [redwanhossainminhaz.github.io/CITIZEN-REACT/](redwanhossainminhaz.github.io/CITIZEN-REACT/)
 
