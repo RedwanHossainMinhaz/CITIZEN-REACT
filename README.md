@@ -160,8 +160,6 @@ To contribute:
 **Redwan Hossain Minhaz**
 
 - GitHub: https://github.com/redwanhossainminhaz
-- Portfolio: *Add your portfolio URL here*
-- LinkedIn: *Add your LinkedIn profile here*
 
 ---
 
